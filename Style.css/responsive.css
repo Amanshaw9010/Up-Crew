@@ -1,0 +1,137 @@
+@media screen and (max-width:1850px) {
+    .first__side p {
+        width: 79%;
+    }
+
+    .first__side h1 {
+        width: 94%;
+        font-size: 5.5rem;
+    }
+
+    .second__side img {
+        width: 72rem;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+    .first__side h1 {
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .first__side p {
+        width: 98%;
+    }
+
+    .second__side img {
+        width: 65rem;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .first__side h1 {
+
+        font-size: 4.5rem;
+    }
+
+    .first__side p {
+        font-size: 1.4rem;
+    }
+
+    .second__side img {
+        width: 55rem;
+    }
+
+    .nav__bar .nav__menu {
+        gap: 6rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .first__side h1 {
+
+        font-size: 3.8rem;
+    }
+
+    .first__side p {
+        font-size: 1.3rem;
+    }
+
+    .second__side img {
+        width: 45rem;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+
+    .first__side h1,
+    p {
+        text-align: center;
+    }
+
+    .first__side .text .homebtn {
+        text-align: center;
+    }
+
+    .home__page {
+        grid-template-columns: repeat(1, 1fr);
+
+        row-gap: 5rem;
+
+    }
+
+    .second__side img {
+        width: 55rem;
+    }
+
+    .nav__bar .nav__menu {
+        gap: 3.6rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .nav__bar .nav__menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .second__side img {
+        width: 43rem;
+    }
+
+    .first__side .text .button {
+        padding: 0px 1.5rem 0.5rem 1.5rem;
+        height: 50px;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .second__side img {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .second__side img {
+        width: 32rem;
+    }
+    .first__side h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:340px){
+    .second__side img {
+        width: 26rem;
+    }
+    .first__side h1 {
+        font-size: 2.6rem;
+    }
+}
+
